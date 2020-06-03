@@ -37,7 +37,7 @@ header .header-icons-container {
     width: 100%;
     height: 50px;
     display: grid;
-    background-color: #47cfac;
+    background-color: #84C318;
 }
 
 header .header-icons-container .icons {
@@ -86,7 +86,7 @@ nav .profile-link a {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url('../assets/img/Cover.png');
+    background-image: url('../assets/img/cover.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +103,7 @@ nav .profile-link a {
 .home-main-text {
     font-family: 'Roboto mono', monospace;
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: bold;
     letter-spacing: 10px;
     color: white;
     text-align: center;
@@ -112,9 +112,15 @@ nav .profile-link a {
 .home-main-button {
     width: 110px;
     height: 50px;
-    background: #47cfac;
+    background: #84C318;
     display: grid;
     align-items: center;
+    border: none;
+}
+
+.home-main-button:hover {
+    background: rgb(87, 131, 10);
+    border: 1px solid white;
 }
 
 .home-main-button a {
@@ -165,7 +171,7 @@ nav .profile-link a {
 }
 
 .blogs-button {
-    border: 1px solid #47cfac;
+    border: 1px solid #84C318;
     padding: 10px 15px;
     font-size: 12px;
 }
@@ -188,8 +194,8 @@ nav .profile-link a {
 footer {
     width: 100%;
     height: 80px;
-    background-color: #22272d;
-    border-top: 35px solid #47cfac;
+    background-color: #503D42;
+    border-top: 35px solid #84C318;
     text-align: center;
     color: white;
 }
@@ -220,7 +226,7 @@ footer p {
 }
 
 .contact-main-container {
-    background-color: #cdd2da;
+    background-color: #BEB8EB;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 50px 40px;
@@ -257,7 +263,7 @@ footer p {
 
 .profile-main-container {
     padding: 70px 40px;
-    background-color: #cdd2da;
+    background-color: #BEB8EB;
     margin-bottom: 50px;
 }
 
